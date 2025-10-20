@@ -97,7 +97,7 @@ if __name__ == "__main__":
     assert longest_word("ktory wyraz jest najdluzszy") == ("najdluzszy", 10)
 
     # 2.15
-    assert join_numbers([11, 76, 89, 1]) == ("1176891")
+    assert join_numbers([11, 76, 89, 1]) == "1176891"
 
     # 2.16
     assert replace_gvr("GvR to tworca Pythona") == "Guido van Rossum to tworca Pythona"
@@ -112,6 +112,7 @@ if __name__ == "__main__":
     assert numbers_format([1, 6, 8, 98, 101]) == "001006008098101"
 
     print("All tests passed successfully")
+
 
 
 
